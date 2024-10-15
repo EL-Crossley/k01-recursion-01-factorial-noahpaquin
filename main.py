@@ -1,6 +1,10 @@
-3# Put your function here
+def factorial(num):
+    if num == 1:
+        return 1
+    else:
+        return num*factorial(num-1)
 
 
-# testing
-num = 5
-print(factorial(num))
+
+numb = int(input())
+print(factorial(numb))
