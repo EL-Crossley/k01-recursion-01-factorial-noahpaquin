@@ -3,3 +3,8 @@ def factorial(num):
         return 1
     else:
         return num*factorial(num-1)
+
+
+
+numb = int(input())
+print(factorial(numb))
